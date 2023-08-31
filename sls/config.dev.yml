@@ -1,6 +1,6 @@
 unique_id: <YOUR_USERNAME> 
 region: us-east-1
-sagemaker_role_arn: <sagemaker_role_arn>
-training_image_ecr_path: <training_image_ecr_path>
-snf_ef_role_arn: <snf_ef_role_arn>
-snf_ef_role_principal: <snf_ef_role_principal>
+sagemaker_role_arn: arn:aws:iam::593975436287:role/sf_sagemake_role
+training_image_ecr_path: 593975436287.dkr.ecr.us-east-1.amazonaws.com/snf-recommender-lab
+snf_ef_role_arn: arn:aws:iam::593975436287:role/snowflake_access_role
+snf_ef_role_principal: arn:aws:sts::593975436287:assumed-role/snf-ef-role-test/snowflake
